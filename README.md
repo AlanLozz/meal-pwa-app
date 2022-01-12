@@ -1,6 +1,6 @@
 # Aplicación de recetas
 
-![Captura de Recetas](.readme-static/Recetas.png)
+![Captura de Recetas](.readme-static/Recetas.jpeg)
 
 PWA que utiliza la API de MealDB para mostrar recetas con sus instrucciones. Algunas de las features que tiene son:
 * Soporte offline con workbox
