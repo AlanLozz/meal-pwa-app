@@ -29,9 +29,9 @@ export default class App extends React.Component {
           </header>
 
           <main>
-            <Route exact path="/meal-pwa-app/" component={Home} />
-            <Route path="/meal-pwa-app/recipe/:recipeId" component={Recipe} />
-            <Route path="/meal-pwa-app/timer" component={Timer} />
+            <Route exact path="/" component={Home} />
+            <Route path="/recipe/:recipeId" component={Recipe} />
+            <Route path="/timer" component={Timer} />
           </main>
           <IsOffline></IsOffline>
         </div>
